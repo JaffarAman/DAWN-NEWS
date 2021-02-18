@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    /* //////// header button //////////// */
+
+
+.headerbtn{
+    background-color: black;
+    padding: 5px;
+}
+.headerbtn ul {
+    color: #9FA6A1;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.headerbtn li{
+    /* border: 1px solid red; */
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+
+    /* /////////logo//////////// */
+.logo{
+    text-align: center;
+    margin-top: 15px;
+    /* border:1px solid black ; */
+}
+
+.logo img{
+    width: 200px;
+}
+.logo p{
+    margin-top: 5px;
+    color: #9FA6A1;
+    font-size: small;
+    font-family:sans-serif ;
+}
+
+    /* /////////NAVBAR ////////// */
+
+.navbar{
+    border-bottom: 1px solid #9FA6A1;
+    margin: 8px 22px;
+    display: flex;
+    justify-content: space-between;    
+    flex-wrap: wrap;
+}    
+.navbtn ul{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    flex-wrap:wrap ;
+
+}
+.navbtn li{
+    /* border: 1px solid red; */
+    font-size: 12px;
+    padding: 5px;
+    font-family: sans-serif;
+    margin: 5px 0;
+    color: black;
+}
+#home{
+    border-bottom: 1px solid black;
+}
+.navbtn li:hover{
+    cursor: pointer;
+    background-color: rgba(159, 166, 161,0.3);
+}
+
+.search{
+    margin: 5px 0;
+    padding: 5px;
+}
+.search input{
+    outline: none;
+    padding: 0 5px;
+    border: none;
+    
+}
+.search input::placeholder{
+    font-size: 11px;
+}
+.search i{
+    font-size: small;
+    color: #9FA6A1;
+}
+
+/* //////////containbox//////// */
+.conatinbox{
+    /* border: 1px solid red; */
+    margin: 10px 22px;
+    width: 70%;
+}
+.conatinbox h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #9FA6A1;
+
+}
+/* ///////////IMAGE HEAD ////// */
+
+.date span{
+    color: #9FA6A1;
+
+}
+.date small{
+        font-size: 14px;
+}
+
+.imghead{
+    /* border: 1px solid khaki; */
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.imghead i{
+    font-size: 21px;
+    padding:0 3px;
+}
+
+/* ///////////////CONTAIN IMAGE///////////// */
+.containImage img{
+    width: 100%;
+}
+
+.centerContain{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.newsname{
+    width: 70%;
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.newsname .news{
+    font-size:23px;
+    /* font-size: 1.4375em; */
+    /* font-size: 143.75%; */
+    text-align: justify;
+}
+
+.link2{
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #9FA6A1;
+}
+.link2 li{
+    display: inline-block;
+}
+
+.link2 i{
+    font-size: 21px;
+    
+}
+
+.form{
+    border-top: 3px solid black;
+    margin-top: 15px;
+    
+    }
+.form table{
+    /* border: 1px solid slateblue; */
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    
+}
+.form tr td{
+    width: 320px;
+    /* border: 1px solid red; */
+    padding: 10px;
+    
+    empty-cells: hide;
+   
+}
+
+
+.form input{
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #9FA6A1;
+}
+.form input:focus{
+    border: 2px solid skyblue;
+}
+.form textarea{
+    padding: 5px;
+    outline: none;
+    border: 1px solid #9FA6A1;
+    width: 70%;
+}
+
+.submitBox{
+    /* border: 1px solid black; */
+    text-align: right;
+
+}
+.submitBox button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    outline: none;
+    font-size: medium;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .conatinbox{
+        width: 90%;
+
+    }   
+    
+} 
+
+@media screen and (max-width: 480px){
+    .conatinbox{
+        width: 100%;
+
+    }   
+         
+} 
